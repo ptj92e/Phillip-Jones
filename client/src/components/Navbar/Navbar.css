@@ -1,3 +1,32 @@
 #navbar {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(15, 15, 29);
+    border-bottom: 4px solid rgb(69, 185, 1);
     font-family: 'Source Sans Pro', sans-serif;
+}
+#nav-links {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link {
+    margin-right: 20px;
+    font-size: 16pt;
+    color: white;
+    text-decoration: none;
+}
+.active {
+    color: rgb(240, 55, 98);
+}
+@media only screen and (max-width: 650px) {
+    #navbar {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .link {
+        font-size: 12pt;
+    } 
 }

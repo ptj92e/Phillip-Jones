@@ -12,6 +12,17 @@
 #landingContent {
     padding-top: 30vh;
     text-align: center;
+    animation: fadeInDown ease 1.5s;
+}
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    } 
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 #topText h1 {
     margin: 0px;
@@ -28,7 +39,7 @@
     font-size: 36pt;
 }
 #bottomText { 
-    margin-bottom: 20px !important;
+    margin-bottom: 30px !important;
     color: white;
     font-size: 36pt;
 }
