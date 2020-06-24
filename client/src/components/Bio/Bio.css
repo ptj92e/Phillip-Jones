@@ -1,0 +1,18 @@
+#bio {
+    margin-top: 40px;
+}
+#bioContent {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+#placeHolderIMG {
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    background-color: red;
+}
+#bioContent p {
+    font-size: 12pt;
+    font-family: 'Playfair Display', serif;
+}

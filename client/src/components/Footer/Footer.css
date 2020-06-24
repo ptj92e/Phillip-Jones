@@ -4,6 +4,10 @@ footer {
     text-align: center;
     background-color: rgb(15, 15, 29);
 }
+#socialDiv {
+    display: flex;
+    justify-content: center;
+}
 #socialDiv a {
     margin-left: 20px;
     margin-right: 20px;
@@ -23,11 +27,28 @@ footer {
     margin-bottom: 50px;
     font-size: 24pt;
     color: rgb(255, 255, 255);
+    transform: rotate(0deg);
+    transition: 0.5s;
 }
 #topLink:hover i {
     color: rgb(255, 255, 255);
     transform: rotate(360deg);
     transition: 0.5s;
+}
+#socialDiv #resume {
+    font-size: 12pt;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    transition: background-color 0.25s ease-in;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#socialDiv #resume:hover {
+    background-color: rgb(69, 185, 1);
+    transition: 0.25s ease-out;
 }
 footer p {
     color: rgb(255, 255, 255);

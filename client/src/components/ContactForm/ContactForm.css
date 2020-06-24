@@ -11,14 +11,14 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 36pt;
-    /* border-bottom: 4px solid rgb(240, 55, 98); */
 }
 #contactForm hr {
-    width: 50%;
+    width: 200px;
     margin: 0px auto 15px auto;
     border: 2px solid rgb(240, 55, 98);
 }
 #contactForm p {
+    width: 400px;
     margin: 0px;
     margin-bottom: 10px;
     text-align: center;
@@ -47,7 +47,14 @@
     font-size: 16pt;
     font-family: 'Source Sans Pro', sans-serif;
 }
-#input {
+#contactForm input:focus,
+#contactForm textarea:focus {
+    outline: none;
+}
+#buttonDiv {
+    position: relative;
+}
+#submit {
     font-size: 12pt;
     display: flex;
     padding: 5px;
@@ -55,20 +62,29 @@
     color: rgb(255, 255, 255);
     background-color: transparent;
     transition: background-color 0.25s ease-in;
-    justify-self: end; 
+    position: absolute;
+    right: 0;
 }
-#input:hover {
+#submit:hover {
     background-color: rgb(69, 185, 1);
     transition: 0.25s ease-out;
 }
 @media only screen and (max-width: 650px) {
     #contactForm {
-        min-height: 78vh;
+        min-height: 80vh;
+    }
+    #contactForm p {
+        width: 300px;
     }
     #contactForm input {
         width: 300px;
     }
     #contactForm textarea {
         width: 300px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    #contactForm {
+        padding-bottom: 40px;
     }
 }
