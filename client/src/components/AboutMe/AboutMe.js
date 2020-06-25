@@ -14,7 +14,7 @@ function AboutMe() {
             </div>
             <div>
                 <h1><i class="fas fa-server"></i>Technologies</h1>
-                <p>My favorite technologies to work with include React, CSS, and Node.</p>
+                <p>I mainly use the MERN stack, but I am adding new technologies everyday.</p>
             </div>
         </div>
     )

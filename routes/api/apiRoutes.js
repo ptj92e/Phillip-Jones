@@ -7,7 +7,6 @@ const PASSWORD = process.env.PASSWORD;
 
 router.route("/")
     .post(function (req, res) {
-        console.log(req.body);
         let transporter = nodeMailer.createTransport({
             host: "smtp.gmail.com",
             port: 465,

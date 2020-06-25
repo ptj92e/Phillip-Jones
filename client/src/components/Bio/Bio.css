@@ -5,14 +5,32 @@
     width: 70%;
     margin: 0 auto 0 auto;
     display: flex;
+    align-content: center;
 }
-#placeHolderIMG {
-    width: 100%;
+#bioContent img {
+    width: 150px;
     height: 150px;
-    margin: 10px;
-    background-color: red;
+    margin-right: 30px;
+    border-radius: 100px;
+    border: 2px solid rgb(69,185,1);
 }
 #bioContent p {
+    margin: auto;
     font-size: 12pt;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media only screen and (max-width: 700px) {
+    #bioContent {
+        width: 90%;
+        display: block;
+    }
+    #bioContent img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    #bioContent p {
+        text-align: center;
+    }
 }

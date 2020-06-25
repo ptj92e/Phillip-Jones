@@ -1,5 +1,6 @@
 #contactForm {
     min-height: 75vh;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
