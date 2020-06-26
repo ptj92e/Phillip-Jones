@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import API from "../../utils/API";
 import "./ContactForm.css";
 
