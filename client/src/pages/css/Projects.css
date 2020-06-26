@@ -1,3 +1,21 @@
 #projects {
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projectContent {
+    width: 90%;
+}
+#projects h1 {
+    font-size: 36pt;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+#projects hr {
+    width: 200px;
+    border: 2px solid rgb(240, 55, 98);
+}
+#projectCards {
+    /* display: flex; */
 }

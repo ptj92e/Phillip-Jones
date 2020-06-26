@@ -9,8 +9,8 @@ function About() {
             <div id="aboutContent">
                 <h1>About Me</h1>
                 <hr/>
-                <AboutMe />
                 <Bio />
+                <AboutMe />
             </div>
         </div>
     )
