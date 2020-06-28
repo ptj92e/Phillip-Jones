@@ -50,7 +50,8 @@
     color: white;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
-    transition: background-color 0.25s ease-in;   
+    transition: background-color 0.25s ease-in; 
+    outline: none;  
 }
 #landingContent a:hover {
     background-color: rgb(69, 185, 1);

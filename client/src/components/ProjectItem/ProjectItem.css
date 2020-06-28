@@ -1,7 +1,49 @@
 .projectItem {
-    float: left;
-    width: 30%;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    grid-column: span 4;
+    width: 100%;
+    height: 275px;
+    margin-bottom: 20px;
+    text-align: center;
 }
+.projectItem img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px #888888;
+}
+.projectItem p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.projectItem button {
+    padding: 10px;
+    font-size: 12pt;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: background-color 0.25s ease-in; 
+}
+.projectItem button:hover {
+    color: white;
+    background-color: rgb(61, 96, 193);
+    transition: 0.25s ease-out;
+}
+.projectItem button:focus {
+    outline: none;
+}
+@media only screen and (max-width: 900px) {
+    .projectItem {
+        grid-column: span 6;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .projectItem {
+        grid-column: span 6;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .projectItem {
+        grid-column: span 12;
+    }
+} 
