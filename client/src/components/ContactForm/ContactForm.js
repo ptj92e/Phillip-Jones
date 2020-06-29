@@ -27,8 +27,10 @@ function ContactForm() {
             <div>
                 <h1>Contact</h1>
                 <hr/>
-                <p>Want to work together? Fill out this form or email me directly at: ptj92e@gmail.com</p>
-                <form onSubmit={handleSubmit}>
+                <p>Want to work together?</p>
+                <p>E-Mail: ptj92e@gmail.com</p>
+                <p>Phone: 615-477-2263</p>
+                {/* <form onSubmit={handleSubmit}>
                     <input 
                         ref={nameRef} 
                         type="text" 
@@ -46,7 +48,7 @@ function ContactForm() {
                     <div id="buttonDiv">
                         <button id="submit" type="submit">Submit</button>
                     </div>
-                </form>
+                </form> */}
             </div>
         </div>
     )
