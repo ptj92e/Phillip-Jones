@@ -24,7 +24,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "path": "^0.12.7",
     "react-responsive-canvas": "^1.0.2",
     "react-scrollmagic": "^2.2.0"
